@@ -5,6 +5,8 @@ function App() {
   
   const [isRed, setRed] = useState(false);
   const [count,setCount] = useState(0);
+  
+  //setCount manages state
 
   const Increment = () => {
     setCount(count + 1);
